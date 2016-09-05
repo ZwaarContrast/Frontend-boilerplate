@@ -1,0 +1,36 @@
+/*
+ *  Main stylesheet
+ */
+
+//Compass imports
+@import 'compass/reset/';
+@import 'compass/css3/';
+@import 'compass/utilities';
+@import 'compass/typography';
+
+//Variables
+@import 'variables/_breakpoints.scss';
+@import 'variables/_colors.scss';
+
+//Mixins
+//@import 'mixins/_animation.scss';
+
+//Utilities imports
+@import 'utilities/_fonts.scss';
+@import 'utilities/_typography.scss';
+@import 'utilities/_layout.scss';
+@import 'utilities/_utilities.scss';
+
+//Elements
+// @import 'elements/_buttons.scss';
+
+//Modules
+// @import 'modules/_archive.scss';
+
+//Vendor
+// @import 'vendor/prism.scss';
+
+//Basic styling
+html{
+    font-size: 16px;
+}
